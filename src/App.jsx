@@ -4,15 +4,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import MyNav from "./components/MyNav";
 import MyFooter from "./components/MyFooter";
-import { Alert, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import AllTheBooks from "./components/AllTheBooks";
+import AdditionalAlert from "./components/Welcome";
 
 function App() {
   return (
     <>
-      <MyNav title="React-EpiBooks!" claim="Avventure da leggere" />
+      <MyNav />
 
-      <Alert />
+      <AdditionalAlert />
       <Container fluid>
         <Row className="justify-content-center">
           <Col xs={10} md={8} xl={6}>

@@ -8,7 +8,7 @@ const AllTheBooks = () => {
         <Card.Title>The Last Wish: Introducing the Witcher</Card.Title>
         <Card.Text>Fantasy story Dragon</Card.Text>
         <ListGroup.Item>4.6/5</ListGroup.Item>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Acquista</Button>
       </Card.Body>
       <ListGroup className="list-group-flush">
         <ListGroup.Item>Category: Fantasy.</ListGroup.Item>

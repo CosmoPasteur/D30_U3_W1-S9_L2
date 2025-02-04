@@ -1,12 +1,10 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 
-const MyNav = (props) => {
+const MyNav = () => {
   return (
     <Navbar expand="lg" className="bg-success">
       <Container fluid>
-        <Navbar.Brand href="#home">
-          {props.title} - {props.claim}
-        </Navbar.Brand>
+        <Navbar.Brand href="#home">EpiBooks!</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
