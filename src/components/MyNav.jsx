@@ -1,13 +1,15 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 
-function MyNav() {
+const MyNav = (props) => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand href="#home">React-EpiBooks!</Navbar.Brand>
+    <Navbar expand="lg" className="bg-success">
+      <Container fluid>
+        <Navbar.Brand href="#home">
+          {props.title} - {props.claim}
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ms-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#">About</Nav.Link>
             <Nav.Link href="#">Browse</Nav.Link>
@@ -16,6 +18,6 @@ function MyNav() {
       </Container>
     </Navbar>
   );
-}
+};
 
 export default MyNav;

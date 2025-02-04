@@ -1,7 +1,7 @@
 const MyFooter = () => {
   return (
     <>
-      <footer>
+      <footer className="bg-success">
         <p>&copy; 2025 My EpiBooks. All rights reserved.</p>
       </footer>
     </>

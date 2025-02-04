@@ -9,11 +9,11 @@ import { Col, Container, Row } from "react-bootstrap";
 function App() {
   return (
     <>
+      <MyNav title="React-EpiBooks!" claim="Avventure da leggere" />
+
       <Container fluid>
         <Row>
-          <Col>
-            <MyNav />
-          </Col>
+          <Col></Col>
         </Row>
       </Container>
 
