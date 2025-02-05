@@ -1,17 +1,17 @@
 import { Alert } from "react-bootstrap";
 
-function AdditionalAlert() {
+function Welcome() {
   return (
-    <Alert variant="success">
-      <Alert.Heading>Hey, nice to see you</Alert.Heading>
+    <Alert variant="info" className="mt-3">
+      <Alert.Heading>Hey, Welcome</Alert.Heading>
       <p>
         Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so
         that you can see how spacing within an alert works with this kind of content.
       </p>
       <hr />
-      <p className="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+      <p className="mb-0">Buona lettura.</p>
     </Alert>
   );
 }
 
-export default AdditionalAlert;
+export default Welcome;
