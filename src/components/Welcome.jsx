@@ -2,7 +2,7 @@ import { Alert } from "react-bootstrap";
 
 function Welcome() {
   return (
-    <Alert variant="info" className="mt-3">
+    <Alert variant="info" className="my-3">
       <Alert.Heading>Hey, Welcome to EpiBooks!</Alert.Heading>
       <p>
         Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so
