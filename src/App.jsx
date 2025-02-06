@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <MyNav />
-
       <Welcome />
       <AllTheBooks />
       <MyFooter />
